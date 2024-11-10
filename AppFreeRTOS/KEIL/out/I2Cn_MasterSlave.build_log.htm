@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: •ÏVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: . ., ., LIC=IK1CX-H3GFY-63LMB-20LQR-9GM9W-V572D
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  C:\Keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      CMSIS_AGDI.dll V1.21.12.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+G:\cortex\FreeRTOS\FreeRTOS-source\FreeRTOSv10.4.1\FreeRTOSv10.4.1\FreeRTOS_A31G12x\App\App\app.uvprojx
+Project File Date:  05/26/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil\ARM\ARMCC\Bin'
+Build target 'Target 1'
+compiling lcd.c...
+linking...
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol proc (referred from main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol AdcGetData (referred from adc.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol LCD_Clear (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol LCD_DisplayChar (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol LCD_DrawMonoPict (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol LCD_SetBackColor (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol LCD_SetTextColor (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol usMaxJitter (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vAltStartComTestTasks (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vCreateBlockTimeTasks (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vCreateSuicidalTasks (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vParTestInitialise (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vSetupTimerTest (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vStartBlockingQueueTasks (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vStartIntegerMathTasks (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vStartLEDFlashTasks (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vStartPolledQueueTasks (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol vStartSemaphoreTasks (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol xAreBlockTimeTestTasksStillRunning (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol xAreBlockingQueuesStillRunning (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol xAreComTestTasksStillRunning (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol xAreIntegerMathsTaskStillRunning (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol xArePollingQueuesStillRunning (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol xAreSemaphoreTasksStillRunning (referred from task_main.o).
+.\KEIL\out\I2Cn_MasterSlave.axf: Error: L6218E: Undefined symbol xIsCreateTaskStillRunning (referred from task_main.o).
+Not enough information to list image symbols.
+Finished: 1 information, 0 warning and 25 error messages.
+".\KEIL\out\I2Cn_MasterSlave.axf" - 25 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.6.0.pack
+                ARM::CMSIS:CORE:5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.3.0
+
+<h2>Collection of Component include folders:</h2>
+  G:\cortex\FreeRTOS\FreeRTOS-source\FreeRTOSv10.4.1\FreeRTOSv10.4.1\FreeRTOS_A31G12x\App\App\RTE
+  C:\Keil\ARM\PACK\ARM\CMSIS\5.6.0\CMSIS\Core\Include
+  C:\Keil\ARM\PACK\ARM\CMSIS\5.6.0\Device\ARM\ARMCM0plus\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.3.0
+Target not created.
+</pre>
+</body>
+</html>

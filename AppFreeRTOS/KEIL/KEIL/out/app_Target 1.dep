@@ -1,0 +1,1088 @@
+Dependencies for Project 'app', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (..\main\main.c)(0x5F98CAF0)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\main.o --omf_browse .\keil\out\main.crf --depend .\keil\out\main.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\FreeRtosSrc\include\FreeRTOS.h)(0x5F6985CE)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E20A2)
+I (..\main\FreeRTOSConfig.h)(0x5F98CDAC)
+I (..\FreeRtosSrc\include\projdefs.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\portable.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\deprecated_definitions.h)(0x5F95402E)
+I (..\FreeRtosSrc\include\../portable/RVDS/ARM_CM0/portmacro.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\mpu_wrappers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\task.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\list.h)(0x5F6985CE)
+F (..\main\task_main.c)(0x5F97A2EC)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\task_main.o --omf_browse .\keil\out\task_main.crf --depend .\keil\out\task_main.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\FreeRtosSrc\include\FreeRTOS.h)(0x5F6985CE)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E20A2)
+I (..\main\FreeRTOSConfig.h)(0x5F98CDAC)
+I (..\FreeRtosSrc\include\projdefs.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\portable.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\deprecated_definitions.h)(0x5F95402E)
+I (..\FreeRtosSrc\include\../portable/RVDS/ARM_CM0/portmacro.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\mpu_wrappers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\task.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\list.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\queue.h)(0x5F6985CE)
+I (..\FreeRtosSrc\Common\include\death.h)(0x5F69859E)
+F (..\main\proc.c)(0x5F97E544)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\proc.o --omf_browse .\keil\out\proc.crf --depend .\keil\out\proc.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\mcu\uart_a31g12x.h)(0x5F7FDE12)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (..\mcu\uart1n_a31g12x.h)(0x5F7BEA80)
+I (..\FreeRtosSrc\include\FreeRTOS.h)(0x5F6985CE)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E20A2)
+I (..\main\FreeRTOSConfig.h)(0x5F98CDAC)
+I (..\FreeRtosSrc\include\projdefs.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\portable.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\deprecated_definitions.h)(0x5F95402E)
+I (..\FreeRtosSrc\include\../portable/RVDS/ARM_CM0/portmacro.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\mpu_wrappers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\task.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\list.h)(0x5F6985CE)
+I (..\main\peri.h)(0x5F857B82)
+I (..\bsp\ir_nec.h)(0x5F800B32)
+I (..\main\disp.h)(0x5F923144)
+I (..\bsp\ESP32.h)(0x5F641446)
+I (..\main\sensirion.h)(0x5F83F012)
+I (..\bsp\modbus.h)(0x5F7BC134)
+I (..\main\mon.h)(0x5F7BCC7C)
+I (..\main\proc.h)(0x5F97E544)
+F (..\main\peri.c)(0x5F97E4D8)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\peri.o --omf_browse .\keil\out\peri.crf --depend .\keil\out\peri.d)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\mcu\uart_a31g12x.h)(0x5F7FDE12)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (..\mcu\uart1n_a31g12x.h)(0x5F7BEA80)
+I (..\main\proc.h)(0x5F97E544)
+I (..\bsp\ir_nec.h)(0x5F800B32)
+I (..\main\disp.h)(0x5F923144)
+I (..\main\peri.h)(0x5F857B82)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+F (..\main\disp.c)(0x5F97E4D8)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\disp.o --omf_browse .\keil\out\disp.crf --depend .\keil\out\disp.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\main\proc.h)(0x5F97E544)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (..\bsp\mc2102.h)(0x5F82929A)
+I (..\main\sensirion.h)(0x5F83F012)
+I (..\main\peri.h)(0x5F857B82)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\main\disp.h)(0x5F923144)
+F (..\main\mon.c)(0x5F8D4CB4)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\mon.o --omf_browse .\keil\out\mon.crf --depend .\keil\out\mon.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\mcu\uart1n_a31g12x.h)(0x5F7BEA80)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\mcu\uart_a31g12x.h)(0x5F7FDE12)
+I (..\main\mon.h)(0x5F7BCC7C)
+F (..\main\sensirion.c)(0x5F9230C6)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\sensirion.o --omf_browse .\keil\out\sensirion.crf --depend .\keil\out\sensirion.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\mcu\A31G12x_I2Cn_sg.h)(0x5F83E878)
+I (..\main\proc.h)(0x5F97E544)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\mcu\i2c_a31g12x.h)(0x5F83E146)
+I (..\sensirion\sht3x.h)(0x5F8665B8)
+I (..\sensirion\sensirion_arch_config.h)(0x5F8FC7F8)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (..\sensirion\sensirion_i2c.h)(0x5F855C44)
+I (..\sensirion\sht_git_version.h)(0x5F8665B8)
+I (..\sensirion\sgp30.h)(0x5F8658E8)
+I (..\sensirion\sensirion_common.h)(0x5F855C44)
+I (..\sensirion\sps30.h)(0x5F853902)
+I (..\main\disp.h)(0x5F923144)
+I (..\main\sensirion.h)(0x5F83F012)
+F (.\Âü°í.txt)(0x5EC72218)()
+F (..\mcu\A31G12x_I2Cn_sg.c)(0x5F9257DC)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_i2cn_sg.o --omf_browse .\keil\out\a31g12x_i2cn_sg.crf --depend .\keil\out\a31g12x_i2cn_sg.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\mcu\A31G12x_I2Cn_sg.h)(0x5F83E878)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\mcu\uart_a31g12x.c)(0x5F7FDE12)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\uart_a31g12x.o --omf_browse .\keil\out\uart_a31g12x.crf --depend .\keil\out\uart_a31g12x.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\mcu\uart_a31g12x.h)(0x5F7FDE12)
+F (..\mcu\uart1n_a31g12x.c)(0x5F7C00C6)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\uart1n_a31g12x.o --omf_browse .\keil\out\uart1n_a31g12x.crf --depend .\keil\out\uart1n_a31g12x.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+I (..\mcu\uart1n_a31g12x.h)(0x5F7BEA80)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+F (..\mcu\i2c_a31g12x.c)(0x5F83E884)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\i2c_a31g12x.o --omf_browse .\keil\out\i2c_a31g12x.crf --depend .\keil\out\i2c_a31g12x.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\mcu\A31G12x_I2Cn_sg.h)(0x5F83E878)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\mcu\i2c_a31g12x.h)(0x5F83E146)
+F (..\..\Device\Source\ARM\startup_A31G12x.s)(0x5D5B42F8)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1" --pd "_RTE_ SETA 1"--list .\keil\lst\startup_a31g12x.lst --xref -o .\keil\out\startup_a31g12x.o --depend .\keil\out\startup_a31g12x.d)
+F (..\Option\KEIL\option_A31G12x.s)(0x5D5B7D1A)(--cpu Cortex-M0+ -g --apcs=interwork -I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include--pd "__UVISION_VERSION SETA 533" --pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1" --pd "_RTE_ SETA 1"--list .\keil\lst\option_a31g12x.lst --xref -o .\keil\out\option_a31g12x.o --depend .\keil\out\option_a31g12x.d)
+F (..\..\Device\Source\system_A31G12x.c)(0x5DCE5992)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\system_a31g12x.o --omf_browse .\keil\out\system_a31g12x.crf --depend .\keil\out\system_a31g12x.d)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+F (..\..\Drivers\Source\A31G12x_ADC.c)(0x5DE86626)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_adc.o --omf_browse .\keil\out\a31g12x_adc.crf --depend .\keil\out\a31g12x_adc.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_CRC.c)(0x5DB2AB40)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_crc.o --omf_browse .\keil\out\a31g12x_crc.crf --depend .\keil\out\a31g12x_crc.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_FMC.c)(0x5DB2AB40)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_fmc.o --omf_browse .\keil\out\a31g12x_fmc.crf --depend .\keil\out\a31g12x_fmc.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_INTC.c)(0x5DE7079C)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_intc.o --omf_browse .\keil\out\a31g12x_intc.crf --depend .\keil\out\a31g12x_intc.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_LCD.c)(0x5DE866B4)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_lcd.o --omf_browse .\keil\out\a31g12x_lcd.crf --depend .\keil\out\a31g12x_lcd.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_PCU.c)(0x5DE89C34)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_pcu.o --omf_browse .\keil\out\a31g12x_pcu.crf --depend .\keil\out\a31g12x_pcu.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_PWR.c)(0x5DFB42C8)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_pwr.o --omf_browse .\keil\out\a31g12x_pwr.crf --depend .\keil\out\a31g12x_pwr.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_SCUCC.c)(0x5DDCE530)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_scucc.o --omf_browse .\keil\out\a31g12x_scucc.crf --depend .\keil\out\a31g12x_scucc.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_SCUCG.c)(0x5DE9AB32)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_scucg.o --omf_browse .\keil\out\a31g12x_scucg.crf --depend .\keil\out\a31g12x_scucg.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_SCULV.c)(0x5DDF2DC6)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_sculv.o --omf_browse .\keil\out\a31g12x_sculv.crf --depend .\keil\out\a31g12x_sculv.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_TIMER1n.c)(0x5DE9BA80)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_timer1n.o --omf_browse .\keil\out\a31g12x_timer1n.crf --depend .\keil\out\a31g12x_timer1n.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_TIMER2n.c)(0x5DE9BA80)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_timer2n.o --omf_browse .\keil\out\a31g12x_timer2n.crf --depend .\keil\out\a31g12x_timer2n.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_TIMER3n.c)(0x5DF08E0C)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_timer3n.o --omf_browse .\keil\out\a31g12x_timer3n.crf --depend .\keil\out\a31g12x_timer3n.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_UARTn.c)(0x5DE9BA80)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_uartn.o --omf_browse .\keil\out\a31g12x_uartn.crf --depend .\keil\out\a31g12x_uartn.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_USART1n.c)(0x5E21553C)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_usart1n.o --omf_browse .\keil\out\a31g12x_usart1n.crf --depend .\keil\out\a31g12x_usart1n.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_WDT.c)(0x5DE9EBBA)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_wdt.o --omf_browse .\keil\out\a31g12x_wdt.crf --depend .\keil\out\a31g12x_wdt.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\A31G12x_WT.c)(0x5DE9BA82)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\a31g12x_wt.o --omf_browse .\keil\out\a31g12x_wt.crf --depend .\keil\out\a31g12x_wt.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\debug_frmwrk.c)(0x5DE89C36)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\debug_frmwrk.o --omf_browse .\keil\out\debug_frmwrk.crf --depend .\keil\out\debug_frmwrk.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\..\Drivers\Source\slib.c)(0x5DB2AA2C)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\slib.o --omf_browse .\keil\out\slib.crf --depend .\keil\out\slib.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_ADC.h)(0x5DE86626)
+I (..\..\Drivers\Include\A31G12x_CRC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_FMC.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_I2Cn.h)(0x5DDF277A)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_LCD.h)(0x5DE866B4)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_PWR.h)(0x5DB2AB40)
+I (..\..\Drivers\Include\A31G12x_SCUCC.h)(0x5DDDCA72)
+I (..\..\Drivers\Include\A31G12x_SCUCG.h)(0x5DDDD67C)
+I (..\..\Drivers\Include\A31G12x_SCULV.h)(0x5DDF2C62)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\..\Drivers\Include\A31G12x_TIMER2n.h)(0x5DF1E720)
+I (..\..\Drivers\Include\A31G12x_TIMER3n.h)(0x5DF1E6AE)
+I (..\..\Drivers\Include\A31G12x_UARTn.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_USART1n.h)(0x5DE8936A)
+I (..\..\Drivers\Include\A31G12x_WDT.h)(0x5DE9DCC4)
+I (..\..\Drivers\Include\A31G12x_WT.h)(0x5DE86A4A)
+I (..\..\Drivers\Include\A31G12x_WTIDKY.h)(0x5DD648C8)
+I (..\..\Drivers\Include\debug_frmwrk.h)(0x5DB2AA2C)
+I (..\..\Drivers\Include\slib.h)(0x5DB2AA2C)
+F (..\FreeRtosSrc\tasks.c)(0x5F98CDE0)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\tasks.o --omf_browse .\keil\out\tasks.crf --depend .\keil\out\tasks.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (..\FreeRtosSrc\include\FreeRTOS.h)(0x5F6985CE)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (..\main\FreeRTOSConfig.h)(0x5F98CDAC)
+I (..\FreeRtosSrc\include\projdefs.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\portable.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\deprecated_definitions.h)(0x5F95402E)
+I (..\FreeRtosSrc\include\../portable/RVDS/ARM_CM0/portmacro.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\mpu_wrappers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\task.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\list.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\timers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\stack_macros.h)(0x5F6985CE)
+F (..\FreeRtosSrc\list.c)(0x5F6985CE)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\list.o --omf_browse .\keil\out\list.crf --depend .\keil\out\list.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (..\FreeRtosSrc\include\FreeRTOS.h)(0x5F6985CE)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (..\main\FreeRTOSConfig.h)(0x5F98CDAC)
+I (..\FreeRtosSrc\include\projdefs.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\portable.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\deprecated_definitions.h)(0x5F95402E)
+I (..\FreeRtosSrc\include\../portable/RVDS/ARM_CM0/portmacro.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\mpu_wrappers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\list.h)(0x5F6985CE)
+F (..\FreeRtosSrc\queue.c)(0x5F6985CE)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\queue.o --omf_browse .\keil\out\queue.crf --depend .\keil\out\queue.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (..\FreeRtosSrc\include\FreeRTOS.h)(0x5F6985CE)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (..\main\FreeRTOSConfig.h)(0x5F98CDAC)
+I (..\FreeRtosSrc\include\projdefs.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\portable.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\deprecated_definitions.h)(0x5F95402E)
+I (..\FreeRtosSrc\include\../portable/RVDS/ARM_CM0/portmacro.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\mpu_wrappers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\task.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\list.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\queue.h)(0x5F6985CE)
+F (..\FreeRtosSrc\portable\RVDS\ARM_CM0\port.c)(0x5F98CAF0)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\port.o --omf_browse .\keil\out\port.crf --depend .\keil\out\port.d)
+I (..\FreeRtosSrc\include\FreeRTOS.h)(0x5F6985CE)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (..\main\FreeRTOSConfig.h)(0x5F98CDAC)
+I (..\FreeRtosSrc\include\projdefs.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\portable.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\deprecated_definitions.h)(0x5F95402E)
+I (..\FreeRtosSrc\include\../portable/RVDS/ARM_CM0/portmacro.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\mpu_wrappers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\task.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\list.h)(0x5F6985CE)
+F (..\FreeRtosSrc\portable\MemMang\heap_2.c)(0x5F6985CE)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\heap_2.o --omf_browse .\keil\out\heap_2.crf --depend .\keil\out\heap_2.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (..\FreeRtosSrc\include\FreeRTOS.h)(0x5F6985CE)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (..\main\FreeRTOSConfig.h)(0x5F98CDAC)
+I (..\FreeRtosSrc\include\projdefs.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\portable.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\deprecated_definitions.h)(0x5F95402E)
+I (..\FreeRtosSrc\include\../portable/RVDS/ARM_CM0/portmacro.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\mpu_wrappers.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\task.h)(0x5F6985CE)
+I (..\FreeRtosSrc\include\list.h)(0x5F6985CE)
+F (..\bsp\ESP32.c)(0x5F7FF550)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\esp32.o --omf_browse .\keil\out\esp32.crf --depend .\keil\out\esp32.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\mcu\uart_a31g12x.h)(0x5F7FDE12)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\mcu\uart1n_a31g12x.h)(0x5F7BEA80)
+I (..\main\peri.h)(0x5F857B82)
+I (..\bsp\ESP32.h)(0x5F641446)
+F (..\bsp\ir_nec.c)(0x5F800B74)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\ir_nec.o --omf_browse .\keil\out\ir_nec.crf --depend .\keil\out\ir_nec.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (..\bsp\ir_nec.h)(0x5F800B32)
+F (..\bsp\ir_nec_hal.c)(0x5F913830)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\ir_nec_hal.o --omf_browse .\keil\out\ir_nec_hal.crf --depend .\keil\out\ir_nec_hal.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\..\Drivers\Include\A31G12x_INTC.h)(0x5DDDD2D8)
+I (..\..\Drivers\Include\A31G12x_TIMER1n.h)(0x5DF1E60C)
+I (..\bsp\ir_nec.h)(0x5F800B32)
+I (..\bsp\ir_nec_hal.h)(0x5F641446)
+F (..\bsp\mc2012_hal.c)(0x5F7C0562)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\mc2012_hal.o --omf_browse .\keil\out\mc2012_hal.crf --depend .\keil\out\mc2012_hal.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\..\Drivers\Include\A31G12x_PCU.h)(0x5DE89C36)
+I (..\bsp\mc2012_hal.h)(0x5F7305EC)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+F (..\bsp\mc2102.c)(0x5F82929A)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\mc2102.o --omf_browse .\keil\out\mc2102.crf --depend .\keil\out\mc2102.d)
+I (..\bsp\mc2012_hal.h)(0x5F7305EC)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\bsp\MC2102.h)(0x5F82929A)
+F (..\bsp\modbus.c)(0x5F7C16FA)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\modbus.o --omf_browse .\keil\out\modbus.crf --depend .\keil\out\modbus.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\bsp\modbus.h)(0x5F7BC134)
+I (..\bsp\modbus_hal.h)(0x5F7C17B6)
+F (..\bsp\modbus_hal.c)(0x5F7C27F0)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\modbus_hal.o --omf_browse .\keil\out\modbus_hal.crf --depend .\keil\out\modbus_hal.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\mcu\uart1n_a31g12x.h)(0x5F7BEA80)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\bsp\modbus_hal.h)(0x5F7C17B6)
+F (..\sensirion\sensirion_common.c)(0x5F855C44)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\sensirion_common.o --omf_browse .\keil\out\sensirion_common.crf --depend .\keil\out\sensirion_common.d)
+I (..\sensirion\sensirion_common.h)(0x5F855C44)
+I (..\sensirion\sensirion_arch_config.h)(0x5F8FC7F8)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\sensirion\sensirion_i2c.h)(0x5F855C44)
+F (..\sensirion\sensirion_i2c_sg.c)(0x5F92555C)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\sensirion_i2c_sg.o --omf_browse .\keil\out\sensirion_i2c_sg.crf --depend .\keil\out\sensirion_i2c_sg.d)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5E8E20A2)
+I (..\..\Device\Include\A31G12x.h)(0x5DF071BC)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8EC312)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E82F8B2)
+I (C:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8EC312)
+I (..\..\Device\Include\system_A31G12x.h)(0x5DCE5994)
+I (..\..\Drivers\Include\aa_types.h)(0x5DD62452)
+I (..\mcu\A31G12x_I2Cn_sg.h)(0x5F83E878)
+I (..\main\peri.h)(0x5F857B82)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\sensirion\sensirion_common.h)(0x5F855C44)
+I (..\sensirion\sensirion_arch_config.h)(0x5F8FC7F8)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (..\sensirion\sensirion_i2c.h)(0x5F855C44)
+F (..\sensirion\sgp30.c)(0x5F867C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\sgp30.o --omf_browse .\keil\out\sgp30.crf --depend .\keil\out\sgp30.d)
+I (..\sensirion\sgp30.h)(0x5F8658E8)
+I (..\sensirion\sensirion_arch_config.h)(0x5F8FC7F8)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\sensirion\sensirion_common.h)(0x5F855C44)
+I (..\sensirion\sensirion_i2c.h)(0x5F855C44)
+I (..\sensirion\sgp_git_version.h)(0x5F855952)
+F (..\sensirion\sht3x.c)(0x5F8665B8)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\sht3x.o --omf_browse .\keil\out\sht3x.crf --depend .\keil\out\sht3x.d)
+I (..\sensirion\sht3x.h)(0x5F8665B8)
+I (..\sensirion\sensirion_arch_config.h)(0x5F8FC7F8)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\sensirion\sensirion_i2c.h)(0x5F855C44)
+I (..\sensirion\sht_git_version.h)(0x5F8665B8)
+I (..\sensirion\sensirion_common.h)(0x5F855C44)
+F (..\sensirion\sps30.c)(0x5F867C78)(--c99 -c --cpu Cortex-M0+ -g -O2 --apcs=interwork --split_sections -I ..\..\Device\Include -I ..\..\Drivers\Include -I ..\FreeRtosSrc\include -I ..\FreeRtosSrc\Common\include -I ..\main -I ..\mcu -I ..\bsp -I ..\sensirion-I.\RTE\_Target_1-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\USER\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="533" -D_RTE_ -DARMCM0P -D_RTE_ -DARMCM0 -DHOST_SEND_HEX="0" -DHOST_SEND_ASC="1" -DHOST_SEND="HOST_SEND_ASC"-o .\keil\out\sps30.o --omf_browse .\keil\out\sps30.crf --depend .\keil\out\sps30.d)
+I (..\sensirion\sps30.h)(0x5F853902)
+I (..\sensirion\sensirion_arch_config.h)(0x5F8FC7F8)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5E8E20A2)
+I (C:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x5E8E20A2)
+I (..\sensirion\sensirion_common.h)(0x5F855C44)
+I (..\sensirion\sensirion_i2c.h)(0x5F855C44)
+I (..\sensirion\sps_git_version.h)(0x5F853902)
